@@ -15,8 +15,8 @@ Sırası ile;
 * Sıralama işlemi her iki algoritma tarafından da tamamlandığında ise TY-SORT'un BubbleSort'a karşı ne kadar hızlı olduğunu gözlemleyeceğiz.
 
 ## Proje Ekibi:
-Mehmet Çınar Turşak 5C / 352 (mcinartursak@gmail.com)
-Asaf Fazıl Yenisoy 5C / 376
+* Mehmet Çınar Turşak 5C / 352 (mcinartursak@gmail.com)
+* Asaf Fazıl Yenisoy 5C / 376
 
 
 ## Danışman Öğretmen:
