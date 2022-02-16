@@ -9,27 +9,86 @@
 </head>
 
 <body>
-    <button  class="header" onclick="generatearray()" id="Button1"> Yeni Veri Hazırla</button>       
-    <button class="header" onclick="BubbleSort()" id="Button2">Sırala</button>
-	<a  href="hakkinda.html"><button class="header">Hakkımızda</button></a>
 
-	
-	<div class="sort-area-list">
-		<div class="sort-area1">
-			<div class="header">Bubble Sort</div>
-			<div id="array" style="float:left;"></div>
+	<div class="ust-satir">
+		<div class="ty-sort-logo">
+			TY-SORT
 		</div>
-			
-		<div class="sort-area2">
-			<div class="header">TY-Sort</div>
-			<div id="arrayty" class="tysort-groups"></div>
-			<div class="tysort-groups">
-				<div class="tysort-group1" id="array1" style="float:left;"></div>
-				<div class="tysort-group2" id="array2" style="float:left;"></div>
-			</div>
-			<div id="array3" style="float:left;"></div>
+		
+		<div class="butonlar">
+			<a class="hakkimizda" href="hakkinda.html">Hakkımızda</a>	
 		</div>
 	</div>
+	
+	<div class="page-content">
+		<div class="initialScreen" id="initialScreen">
+			<div style="padding-top: 100px; text-align: center;">
+				<div style="max-width: 550px; margin: auto; text-align: left;">
+					<div style="color: #82c7a5;">
+						<strong>TY-SORT</strong> sıralama algoritması, mevcut sort algoritmalarını hızlandırmaya yarayan alternatif bir sıralama algoritmasıdır.<br/><br/>
+					</div>
+	
+					Bu örnekte, <strong>TY-SORT</strong> algoritmasının COVID pandemisinde hasta sıralama işlemi için kullanımına dair karşılaştırmalı bir örnek göreceksiniz.<br/><br/>
+					Sırası ile;<br/><br/>
+					<ul style="padding-left:25px">
+						<li>Hasta Kabulünü başlattığınızda 20 adet hasta kabulü yapılıp rasgele aciliyet seviyeleri tanımlanacak.<br/></li>
+						<li>Ardından sıralamayı başlattığınızda ise aynı hastaların hem TY-SORT ile hem de BubbleSort ile aynı anda sıralanmasını izleyeceksiniz.<br/></li>
+						<li>Sıralama işlemi her iki algoritma tarafından da tamamlandığında ise TY-SORT'un BubbleSort'a karşı ne kadar hızlı olduğunu gözlemleyeceğiz.</li>
+					</ul>														
+				</div>				
+			</div>
+			<button class="button button-hazirla" onclick="hastalari_kabul_et()">Hastaları Kabul Et</button>
+
+			<p style="padding-top: 50px;">
+                <b class="sub-header">Proje Ekibi:</b>
+                <br/>
+                <ul style="padding-left: 20px;">
+                    <li>Mehmet Çınar Turşak 5C / 352 (<a href="mailto:mcinartursak@gmail.com">mcinartursak@gmail.com</a>)</li>
+                    <li>Asaf Fazıl Yenisoy 5C / 376</li>
+                </ul>
+                <br/><br/>
+        
+                <b class="sub-header">Danışman Öğretmen:</b> Fatma Bozkurt
+                <br/>
+                <b>Okul			:</b> Ankara Çözüm Koleji
+                <br/>
+                <b>Eğitim Öğretim Yılı	:</b> 2021-2022
+                <br/>
+                <b>Tarih			:</b> 12.02.2022
+
+				<br/><br/>
+
+				<img src="./images/cozum.png" width="120px" style="background-color: white;">				
+            </p>
+		</div>
+
+		<div class="sortScreen" id="sortScreen">
+			<div class="sort-area-list" id="sortAreaList">				
+				<div class="sort-area2">
+					<div class="sort-header">TY-Sort <small id="gecensure_tysort_container" style="padding-left: 10px;">(<span id="gecensure_tysort"></span>)</small></div>
+					<div id="array_tysort"></div>
+					<div id="tysort_groups" class="tysort-groups">
+						<div class="tysort-grup1" id="array_tysort_grup1" style="float:left;"></div>
+						<div class="tysort-grup2" id="array_tysort_grup2" style="float:left;"></div>
+					</div>
+					<div id="array_tysort_sonuc"></div>
+				</div>
+
+				<div class="sort-area1">
+					<div class="sort-header">Bubble Sort <small id="gecensure_bubblesort_container" style="padding-left: 10px;">(<span id="gecensure_bubblesort"></span>)</small></div>
+					<div id="array_bubblesort"></div>
+				</div>
+			</div>	
+		</div>
+
+		<div id="buttonStart" style="text-align: center;">
+			<button class="button button-start" onclick="baslat()">Sırala</button>
+		</div>
+
+		<div class="hide-me" id="sonuc">		
+		</div>
+	</div>		
+	
 	<script src="script.js"></script>
 </body>
 

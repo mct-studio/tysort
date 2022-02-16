@@ -1,36 +1,63 @@
-<html>
-    <img src="cozum.png" >
-    <div style="max-width: 600;font-size: 18;text-align: justify;">
-    <p>
-    <b>Proje Ekibi:</b>
-    <br/>
-    Mehmet Çınar Turşak 5C / 352 (mcinartursak@gmail.com)
-    <br/>
-    Asaf Fazıl Yenisoy 5C / 376 
-    <br/>
+<!DOCTYPE html>
+<html lang="en">
 
-    <b>Danışman Öğretmen:</b> Fatma Bozkurt
-    <br/>
-    <b>Okul			:</b> Ankara Çözüm Koleji
-    <br/>
-    <b>Eğitim Öğretim Yılı	:</b> 2021-2022
-    <br/>
-    <b>Tarih			:</b> 12.02.2022
-    </p>
-    <p >  
-        <b>Giriş:</b>
-        Ekibimiz tarafından danışman öğretmenimizin rehberliğinde fikir ve uygulaması geliştirilen TSort sıralama algoritmasının temel amacı farklı bir yaklaşım ile mevcut sıralama algoritmalarının performansını arttırmaktır. Genel olarak bu algoritma Böl-Sırala-Karşılaştırarak Birleştir mantığı ile çalışmaktadır. Bu çalışmamızda ise bubble sort algoritmasına bu yeni algoritmayı uygulayarak performansını arttırmayı amaçlamaktayız.
-    </p>
-    <p>
-        <b>Örnek Kullanım Alanı:</b>
-        Sıralama algoritmalarına ihtiyaç olan her alanda kullanılabilir. Bu proje kapsamında ise kullanım senaryomuz pandemi döneminde sağlık kuruluşlarında ön muayene sonrası tedavi bekleyen hastaların önceliklendirilmesi ve ön tedavi sürecinde verilen hastalık kritiklik puanına göre hastaların tedaviye ihtiyaç duyan en kritik hastadan daha az kritik hastaya göre sıralanmasının bu algoritma sayesinde çok daha hızlı ve verimli yapılabilir.
-    </p>
-    <p>
-        <b>Önerilen Devam Çalışmaları:</b>
-        Bu yeni yaklaşım, farklı sıralama algoritmalarına da uygulanarak performans karşılaştırmaları hesaplanabilir.
-        Ayrıca daha büyük sayıdaki veriler için 2 yerine daha fazla gruba da ayırarak sıralama yapılabilir
-        Bubble sort’da multi-thread yapıda sıralama mümkün değil iken bu yaklaşımda her grubu multi-thread yapıda parallel şekilde sıralayarak da performans çok ciddi şekilde arttırılabilir
-    </p>
-    <a  href="index.html"><button class="header">Geri Dön</button></a>
-</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div style="background-color: white; padding: 5px; text-align: center;">
+        <img src="./images/cozum.png" >
+    </div>
+    
+    <div style="display: flex; align-items: center; padding: 60px;">
+        <div style="max-width: 600px; font-size:18px; text-align: justify; margin: auto;">
+            <p>
+                <b class="sub-header">Proje Ekibi:</b>
+                <br/>
+                <ul style="padding-left: 20px;">
+                    <li>Mehmet Çınar Turşak 5C / 352 (<a href="mailto:mcinartursak@gmail.com">mcinartursak@gmail.com</a>)</li>
+                    <li>Asaf Fazıl Yenisoy 5C / 376</li>
+                </ul>
+                <br/><br/>
+        
+                <b class="sub-header">Danışman Öğretmen:</b> Fatma Bozkurt
+                <br/>
+                <b>Okul			:</b> Ankara Çözüm Koleji
+                <br/>
+                <b>Eğitim Öğretim Yılı	:</b> 2021-2022
+                <br/>
+                <b>Tarih			:</b> 12.02.2022
+            </p>
+            
+            <br/>
+            <p> 
+                <b class="sub-header">Giriş:</b>
+                Ekibimiz tarafından danışman öğretmenimizin rehberliğinde fikir ve uygulaması geliştirilen TSort sıralama algoritmasının temel amacı farklı bir yaklaşım ile mevcut sıralama algoritmalarının performansını arttırmaktır. Genel olarak bu algoritma Böl-Sırala-Karşılaştırarak Birleştir mantığı ile çalışmaktadır. Bu çalışmamızda ise bubble sort algoritmasına bu yeni algoritmayı uygulayarak performansını arttırmayı amaçlamaktayız.
+            </p>
+
+            <br/>
+            <p>
+                <b class="sub-header">Örnek Kullanım Alanı:</b>
+                Sıralama algoritmalarına ihtiyaç olan her alanda kullanılabilir. Bu proje kapsamında ise kullanım senaryomuz pandemi döneminde sağlık kuruluşlarında ön muayene sonrası tedavi bekleyen hastaların önceliklendirilmesi ve ön tedavi sürecinde verilen hastalık kritiklik puanına göre hastaların tedaviye ihtiyaç duyan en kritik hastadan daha az kritik hastaya göre sıralanmasının bu algoritma sayesinde çok daha hızlı ve verimli yapılabilir.
+            </p>
+
+            <br/>
+            <p>
+                <b class="sub-header">Önerilen Devam Çalışmaları:</b>
+                Bu yeni yaklaşım, farklı sıralama algoritmalarına da uygulanarak performans karşılaştırmaları hesaplanabilir.
+                Ayrıca daha büyük sayıdaki veriler için 2 yerine daha fazla gruba da ayırarak sıralama yapılabilir
+                Bubble sort’da multi-thread yapıda sıralama mümkün değil iken bu yaklaşımda her grubu multi-thread yapıda parallel şekilde sıralayarak da performans çok ciddi şekilde arttırılabilir
+            </p>
+
+            <br/>
+            <br/>
+
+            <a class="button" href="index.html">Geri Dön</a>
+        </div>
+    </div>    
+</body>
 </html>

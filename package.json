@@ -1,0 +1,23 @@
+{
+  "name": "tysort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mct-studio/tysort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mct-studio/tysort/issues"
+  },
+  "homepage": "https://github.com/mct-studio/tysort#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
