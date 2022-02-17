@@ -121,7 +121,7 @@ function sonucGoster() {
 	var div = document.getElementById('sonuc');
 	setElementVisibility(div, true)
 	if (div) {
-		div.innerHTML = `TY-SORT sıralamayı BubleSort'a göre %${yuvarla(yuzdeKar)} daha hızlı bir şekilde tamamladı!`;
+		div.innerHTML = `TY-SORT sıralamayı BubbleSort'a göre %${yuvarla(yuzdeKar)} daha hızlı bir şekilde tamamladı!`;
 	}
 }
 
