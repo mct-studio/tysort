@@ -22,9 +22,6 @@ Sırası ile;
 ## Danışman Öğretmen:
 Fatma Bozkurt
 
-## Okul:
-Ankara Çözüm Koleji
-
 ## Eğitim Öğretim Yılı:
 2021-2022
 
